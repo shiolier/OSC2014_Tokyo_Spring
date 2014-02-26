@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <EditTextPreference
+        android:key="name"
+        android:title="@string/pref_name" />
+
+    <PreferenceScreen android:title="@string/pref_ball_color" >
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:disableDependentsState="true"
+            android:key="ball_color_random"
+            android:title="@string/pref_color_random" />
+
+        <jp.shiolier.android.balancebyopengl.SeekBarPreference
+            android:dependency="ball_color_random"
+            android:key="ball_color_red"
+            android:title="@string/pref_color_red" />
+        <jp.shiolier.android.balancebyopengl.SeekBarPreference
+            android:dependency="ball_color_random"
+            android:key="ball_color_green"
+            android:title="@string/pref_color_green" />
+        <jp.shiolier.android.balancebyopengl.SeekBarPreference
+            android:dependency="ball_color_random"
+            android:key="ball_color_blue"
+            android:title="@string/pref_color_blue" />
+        <!--
+        <jp.shiolier.android.balancebyopengl.SeekBarPreference
+            android:key="ball_color_alpha"
+            android:title="@string/pref_color_transparent"
+            android:dependency="ball_color_random" />
+        -->
+    </PreferenceScreen>
+    <PreferenceScreen android:title="@string/pref_board_color" >
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:disableDependentsState="true"
+            android:key="board_color_random"
+            android:title="@string/pref_color_random" />
+
+        <jp.shiolier.android.balancebyopengl.SeekBarPreference
+            android:dependency="board_color_random"
+            android:key="board_color_red"
+            android:title="@string/pref_color_red" />
+        <jp.shiolier.android.balancebyopengl.SeekBarPreference
+            android:dependency="board_color_random"
+            android:key="board_color_green"
+            android:title="@string/pref_color_green" />
+        <jp.shiolier.android.balancebyopengl.SeekBarPreference
+            android:dependency="board_color_random"
+            android:key="board_color_blue"
+            android:title="@string/pref_color_blue" />
+        <!--
+        <jp.shiolier.android.balancebyopengle.SeekBarPreference
+            android:key="board_color_alpha"
+            android:title="@string/pref_color_transparent"
+            android:dependency="board_color_random" />
+        -->
+    </PreferenceScreen>
+
+</PreferenceScreen>

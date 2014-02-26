@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="jp.shiolier.android.balancebyopengl"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="18" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon_balance"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="jp.shiolier.android.balancebyopengl.MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="jp.shiolier.android.balancebyopengl.BalanceActivity"
+            android:label="@string/title_activity_balance"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="jp.shiolier.android.balancebyopengl.ResultActivity"
+            android:label="@string/title_activity_result"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="jp.shiolier.android.balancebyopengl.RankingActivity"
+            android:label="@string/title_activity_ranking"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="jp.shiolier.android.balancebyopengl.SettingsActivity"
+            android:label="@string/title_activity_settings"
+            android:screenOrientation="portrait" >
+        </activity>
+    </application>
+
+</manifest>

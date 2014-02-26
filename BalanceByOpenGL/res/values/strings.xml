@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Balance by OpenGL</string>
+    <string name="title_activity_balance">Balance</string>
+    <string name="title_activity_result">Result</string>
+    <string name="title_activity_ranking">RANKING</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="btn_start">Start</string>
+    <string name="btn_ranking">Ranking</string>
+    <string name="btn_setting">Settings</string>
+    <string name="btn_top">Top</string>
+    <string name="txt_no_ranking">No Data</string>
+    <string name="pref_name">Player Name</string>
+    <string name="pref_board_color">Board Color</string>
+    <string name="pref_ball_color">Ball Color</string>
+    <string name="pref_color_random">Random Color</string>
+    <string name="pref_color_red">Red</string>
+    <string name="pref_color_green">Green</string>
+    <string name="pref_color_blue">Blue</string>
+    <string name="pref_color_transparent">Transparent</string>
+    <string name="title_setting">Settings</string>
+    <string name="not_back">Please don\'t return.</string>
+    <string name="off">OFF</string>
+    <string name="btn_one_more">One More</string>
+    <string name="img_game_over">Game Over</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+
+</resources>
